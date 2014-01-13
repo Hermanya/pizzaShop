@@ -1,0 +1,23 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel='stylesheet' type='text/css' href='css/main.css'>
+    </head>
+    <body>
+        <div  id='container'>
+            <form action="BeginOrder" method="POST">
+            <h2>Tell us about yourself:</h2>
+            Name: <input type="text" name="name" required maxlength="20"/><br>
+            Address: <input type="text" name="address" required maxlength="100"/><br>
+            Tel: <input type="tel" name="tel" required maxlength="15"/><br>
+            Email: <input type="email" name="email" required maxlength="50"/><br>
+            Delivery:<input type="radio" name="delivery" checked value="true"/>
+            Pick Up:<input type="radio" name="delivery" value="false"/><br>
+            <button>Begin</button>
+            </form>
+        </div>
+    </body>
+</html>

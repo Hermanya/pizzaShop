@@ -1,0 +1,52 @@
+/* 
+    Document   : main
+    Created on : Oct 19, 2013, 4:14:40 PM
+    Author     : Herman
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+html{
+    font-family: arial;
+    background-image: url('../image/logo.jpg');
+    padding: 0;
+    margin: 0;
+}
+body{
+    position: absolute; 
+    left: 50%;
+}
+#container{
+    background-color: rgba(255,255,255,0.8);
+    position: relative; 
+    padding: 10%;
+    text-align: center;
+    left:-50%;
+}
+button,a{
+    background-color: black;
+    color:white;
+    border-radius: 4px;
+    border: rgba(0,0,0,0) solid 1px;
+    font-size: 1.2em;
+    padding: 1px 6px;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    text-decoration:none;
+}
+button:hover,a:hover{
+    background-color: rgba(255,255,255,0.5);
+    color:black;
+    border-radius: 4px;
+    border: black solid 1px;
+    font-size: 1.2em;
+    padding: 1px 6px;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    text-decoration:none;
+}
+#pizzaSizeHeader{
+    display: inline;
+}
